@@ -6,6 +6,10 @@ You will need the std_msgs and the sensor_msgs packages and the modbus as well. 
 
 >sudo apt install libmodbus-dev
 
+After cloning the package on the catkin_ws/src folder, complile it with
+
+> catkin_make
+
 After installing you just have to roslaunch it with:
 
 >roslaunch leddarone leddarone.launch
@@ -18,3 +22,7 @@ This has to be set up like:
 >roslaunch leddarone leddarone.launch port:=9600
 
 Other parameters like oversampling are hardcoded, they are already optimized and not really useful to change for a basic use. There is a brief comment on the source code and you will have to check the documentation to change it correctly.
+
+If you get permission problems with the port, you must give yourself the permissions with
+
+sudo usermod -a -G dialout yourusername
