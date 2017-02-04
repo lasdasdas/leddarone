@@ -25,4 +25,4 @@ Other parameters like oversampling are hardcoded, they are already optimized and
 
 If you get permission problems with the port, you must give yourself the permissions with
 
-sudo usermod -a -G dialout yourusername
+>sudo usermod -a -G dialout yourusername
