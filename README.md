@@ -1,5 +1,5 @@
-# leddartechone
-Ros Drivers for the LeddartechOne This is a driver for the LeddarOne by Leddatech with a RS232 connection port for ROS. The package is written by lasdasdas and licensed under MIT. It has been tested for ROS Kinetic and Indigo. 
+# Leddar One Ros Drivers
+Ros Drivers for the LeddarOne This is a driver for the LeddarOne by Leddatech with a RS232 connection port for ROS. The package is written by lasdasdas and licensed under MIT. It has been tested for ROS Kinetic and Indigo. 
 You will need the std_msgs and the sensor_msgs packages and the modbus as well. You can install the modbus lib with:
 
 >sudo apt install libmodbus5
