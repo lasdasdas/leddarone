@@ -1,0 +1,20 @@
+<launch>
+	<!--baudrate -->
+	<arg name="baudrate" default="115200" />
+	<!--slaveid -->
+	<arg name="slaveid" default="1" />
+	<!--slaveid -->
+	<arg name="port" default="1" />
+
+
+
+	<node name="leddarone" pkg="leddarone" type="LeddarOneRos" output="screen">
+			<param name="serial_port" type="string" value="$(arg port)" />
+			<param name="serial_id" type="string" value="$(arg slaveid)" />
+			<param name="baud_rate" type="int" value="$(arg baudrate)" />
+</node>
+
+
+
+
+</launch>
