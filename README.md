@@ -16,4 +16,5 @@ slaveid for the slaveid
 port the port of the sensor.
 This has to be set up like:
 >roslaunch leddarone leddarone.launch port:=9600
+
 Other parameters like oversampling are hardcoded, they are already optimized and not really useful to change for a basic use. There is a brief comment on the source code and you will have to check the documentation to change it correctly.
